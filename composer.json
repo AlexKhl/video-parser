@@ -1,0 +1,13 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^4.1",
+      "ext-json": "*",
+        "haydenpierce/class-finder": "^0.4.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Artec3D\\": "src",
+        "Artec3D\\Destinations\\": "src/destinations"
+      }
+    }
+}
