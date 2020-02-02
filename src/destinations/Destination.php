@@ -6,7 +6,6 @@ namespace Artec3D\destinations;
 abstract class Destination
 {
     private $name;
-    private $credentials = [];
 
     public function __construct($name)
     {
@@ -20,4 +19,10 @@ abstract class Destination
     {
         return $this->name;
     }
+
+    abstract protected function setCredentials();
+
+    abstract public function upload($file);
+
+    abstract public function setStream();
 }

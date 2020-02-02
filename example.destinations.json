@@ -1,0 +1,9 @@
+{
+  "Dailymotion": {
+    "url": "dailymotion.com",
+    "apiKey": "<YOUR_API_KEY>",
+    "apiSecret": "<YOUR_API_SECRET>",
+    "user": "<YOUR_LOGIN>",
+    "password": "<YOUR_PASSWORD>"
+  }
+}

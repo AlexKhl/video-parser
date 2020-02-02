@@ -22,7 +22,7 @@ class DestinationPool
     // https://metabox.io/object-pool-pattern/
     public function getDestination($name)
     {
-        if (empty($this->destinations) || !in_array($name, $this->destinations[])){
+        if (empty($this->destinations) || !in_array($name, $this->destinations)){
             $destination = $this->_create_instance($name);
             $this->destinations[$name] = $destination;
         }else{

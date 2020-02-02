@@ -1,11 +1,12 @@
 {
     "require": {
-        "vlucas/phpdotenv": "^4.1",
+      "vlucas/phpdotenv": ">=4.1 <5.0.0",
       "ext-json": "*",
-        "haydenpierce/class-finder": "^0.4.0",
+      "haydenpierce/class-finder": ">=0.4.0 <0.5.0",
       "ext-dom": "*",
       "ext-libxml": "*",
-      "ext-curl": "*"
+      "ext-curl": "*",
+      "dailymotion/sdk": "^1.6"
     },
     "autoload": {
       "psr-4": {
