@@ -23,6 +23,4 @@ abstract class Destination
     abstract protected function setCredentials();
 
     abstract public function upload($file);
-
-    abstract public function setStream();
 }

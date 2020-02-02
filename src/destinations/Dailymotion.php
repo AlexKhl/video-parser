@@ -57,11 +57,6 @@ class Dailymotion extends Destination
         $this->channel = $credentials->channel;
     }
 
-    public function setStream()
-    {
-        return $this->api;
-    }
-
     public function upload($file)
     {
         try {
