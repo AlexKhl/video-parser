@@ -11,6 +11,8 @@ composer update
 ```
 And it will download any necessary libs to the project
 
+In the project root directory you have to create an empty <b><i>downloads</i></b> directory
+
 ## Usage
 
 Copy the example.destinations.json file and paste it at the same folder with renaming to destinations.json.
